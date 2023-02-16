@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.transform-rotaet {
+  transform: rotate(240deg);
+}
+#header {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+
+  .container {
+    width: 86%;
+    margin: auto;
+    .logo {
+    }
+    .nav-menu {
+      width: 77%;
+      ul {
+        font-size: 27px;
+        li {
+          a {
+            transition: 25s;
+            color: black;
+            &:hover {
+              border: 2px solid red;
+              padding: 20%;
+              background: rgb(124, 18, 142);
+              background: linear-gradient(
+                225deg,
+                rgba(124, 18, 142, 1) 13%,
+                rgba(9, 114, 121, 1) 49%,
+                rgba(255, 0, 30, 1) 91%
+              );
+            }
+            border-radius: 1.25rem;
+          }
+          text-align: center;
+          border-radius: 1.25rem;
+
+          padding-left: 4%;
+        }
+      }
+    }
+  }
+}
+// header end
+#desing {
+  .container {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.259);
+    background-image: url(/imraz/photo/bg-image-1-scaled.jpg);
+    .boxes {
+      text-align: center;
+      position: relative;
+      top: 42%;
+      align-items: end;
+    }
+    .desing-box {
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      position: relative;
+      top: 30%;
+      h1 {
+        background: rgb(124, 18, 142);
+        background: linear-gradient(
+          225deg,
+          rgba(124, 18, 142, 1) 13%,
+          rgba(9, 114, 121, 1) 49%,
+          rgba(255, 0, 30, 1) 91%
+        );
+        background-clip: text;
+        // background-clip: text;
+        color: transparent;
+        border-color: none;
+        font-size: 74px;
+      }
+    }
+  }
+}
+//  desing sections end
+#about {
+  margin-top: 10%;
+  height: 100vh;
+  width: 100%;
+  .container {
+    width: 80%;
+
+    margin: auto;
+    .pictebox {
+    }
+    .boxs2 {
+      width: 50%;
+      i {
+        color: #fd4766;
+        font-size: 50px;
+      }
+      h1 {
+        font-size: 50px;
+        font-weight: bold;
+      }
+      p {
+        color: rgba(0, 0, 0, 0.489);
+        font-size: 30px;
+        margin: 10% 0;
+      }
+      span {
+        color: rgba(0, 0, 0, 0.489);
+        font-size: 30px;
+        margin-top: 10%;
+      }
+      a {
+        font-weight: bold;
+        font-size: 25px;
+        display: block;
+        margin: 7% 0;
+        background: rgb(124, 18, 142);
+        background: linear-gradient(
+          299deg,
+          rgba(124, 18, 142, 1) 45%,
+          rgba(9, 114, 121, 1) 64%,
+          rgba(255, 0, 30, 1) 98%
+        );
+        background-clip: text;
+        color: transparent;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+// section about end
+// start section services
+#services {
+  .container {
+    .text {
+      margin-bottom: 10%;
+      text-align: center;
+      h4 {
+        font-size: 20px;
+
+        font-weight: bold;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(
+          77deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(121, 9, 116, 1) 14%,
+          rgba(0, 212, 255, 1) 38%,
+          rgba(255, 0, 39, 1) 69%,
+          rgba(0, 255, 21, 1) 85%
+        );
+        background-clip: text;
+        color: transparent;
+      }
+      h1 {
+        font-size: 40px;
+        font-weight: bold;
+      }
+      p {
+        font-size: 30px;
+        width: 52%;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.551);
+      }
+    }
+    .boxs-container {
+      .box-up {
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        .box {
+          width: 27.333%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+//  section services end 
+//  section portfolio start 
+.portfolio{
+  .container{
+    .portfolio-text
+    {
+      text-align: center;
+      h3{
+      
+        background: rgb(28,153,254);
+        background: linear-gradient(120deg, rgba(28,153,254,1) 20.69%, rgba(118,68,255,1) 50.19%, rgba(253,71,102,1) 79.69%);
+        
+        background-clip: text;
+        color: transparent;
+        margin-top: 10%;
+       
+        font-size: 16px;
+      }
+h1{
+  font-size: 40px;
+  padding: 10px 0;
+}
+h2{  color: rgba(0, 0, 0, 0.456);
+    width: 40%;
+  margin: auto;
+
+}
+    }
+    .boxes{
+
+    }
+  }
+}

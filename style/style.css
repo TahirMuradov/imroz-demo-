@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.transform-rotaet {
+  transform: rotate(240deg);
+}
+
+#header {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+#header .container {
+  width: 86%;
+  margin: auto;
+}
+#header .container .nav-menu {
+  width: 77%;
+}
+#header .container .nav-menu ul {
+  font-size: 27px;
+}
+#header .container .nav-menu ul li {
+  text-align: center;
+  border-radius: 1.25rem;
+  padding-left: 4%;
+}
+#header .container .nav-menu ul li a {
+  transition: 25s;
+  color: black;
+  border-radius: 1.25rem;
+}
+#header .container .nav-menu ul li a:hover {
+  border: 2px solid red;
+  padding: 20%;
+  background: rgb(124, 18, 142);
+  background: linear-gradient(225deg, rgb(124, 18, 142) 13%, rgb(9, 114, 121) 49%, rgb(255, 0, 30) 91%);
+}
+
+#desing .container {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.259);
+  background-image: url(/imraz/photo/bg-image-1-scaled.jpg);
+}
+#desing .container .boxes {
+  text-align: center;
+  position: relative;
+  top: 42%;
+  align-items: end;
+}
+#desing .container .desing-box {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 30%;
+}
+#desing .container .desing-box h1 {
+  background: rgb(124, 18, 142);
+  background: linear-gradient(225deg, rgb(124, 18, 142) 13%, rgb(9, 114, 121) 49%, rgb(255, 0, 30) 91%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  border-color: none;
+  font-size: 74px;
+}
+
+#about {
+  margin-top: 10%;
+  height: 100vh;
+  width: 100%;
+}
+#about .container {
+  width: 80%;
+  margin: auto;
+}
+#about .container .boxs2 {
+  width: 50%;
+}
+#about .container .boxs2 i {
+  color: #fd4766;
+  font-size: 50px;
+}
+#about .container .boxs2 h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+#about .container .boxs2 p {
+  color: rgba(0, 0, 0, 0.489);
+  font-size: 30px;
+  margin: 10% 0;
+}
+#about .container .boxs2 span {
+  color: rgba(0, 0, 0, 0.489);
+  font-size: 30px;
+  margin-top: 10%;
+}
+#about .container .boxs2 a {
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  margin: 7% 0;
+  background: rgb(124, 18, 142);
+  background: linear-gradient(299deg, rgb(124, 18, 142) 45%, rgb(9, 114, 121) 64%, rgb(255, 0, 30) 98%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+#about .container .boxs2 a:hover {
+  text-decoration: underline;
+}
+
+#services .container .text {
+  margin-bottom: 10%;
+  text-align: center;
+}
+#services .container .text h4 {
+  font-size: 20px;
+  font-weight: bold;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(77deg, rgb(2, 0, 36) 0%, rgb(121, 9, 116) 14%, rgb(0, 212, 255) 38%, rgb(255, 0, 39) 69%, rgb(0, 255, 21) 85%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+#services .container .text h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+#services .container .text p {
+  font-size: 30px;
+  width: 52%;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.551);
+}
+#services .container .boxs-container .box-up {
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+#services .container .boxs-container .box-up .box {
+  width: 27.333%;
+  text-align: center;
+}
+
+.portfolio .container .portfolio-text {
+  text-align: center;
+}
+.portfolio .container .portfolio-text h3 {
+  background: rgb(28, 153, 254);
+  background: linear-gradient(120deg, rgb(28, 153, 254) 20.69%, rgb(118, 68, 255) 50.19%, rgb(253, 71, 102) 79.69%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  margin-top: 10%;
+  font-size: 16px;
+}
+.portfolio .container .portfolio-text h1 {
+  font-size: 40px;
+  padding: 10px 0;
+}
+.portfolio .container .portfolio-text h2 {
+  color: rgba(0, 0, 0, 0.456);
+  width: 40%;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */
